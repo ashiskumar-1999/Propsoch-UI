@@ -1,0 +1,140 @@
+
+.spinner{
+  justify-self: center;
+  align-self: center;
+  border: 5px solid #f3f3f3; 
+  border-top: 5px solid #E57601; 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.wishlist{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #A9A9A9; 
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer; 
+  z-index: 20;
+}
+
+
+.cardcontainer {
+    width: 177px;
+    height:326px;
+    
+}
+.imagecontainer{
+  border-radius: 16px;
+  z-index: 0;
+}
+.textcontainer{
+  padding: 8px;
+}
+.heading{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.viewsection{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  gap: 4px;
+  width:46px;
+}
+.viewcounts{
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  color: #888888;
+}
+.ratingsection{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  gap: 4px;
+  width:40px;
+}
+.ratingnumber{
+  font-size: 12px;
+  font-weight: 300;
+  color: #E57601;
+}
+.name{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #000000;
+}
+.date{
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 15px;
+  color: #888888;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-bottom: 16px;
+  padding-right: 24px;
+  background-color: #FFFFFF;
+  box-shadow: 0px -8px 8px #00000014;
+
+}
+.navitems{
+  text-align: center;
+}
+.navitem{
+  font-size: 10px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #757575;
+}
+.navitem.selected{
+  color:#E57601;
+}
+
+.propertyname{
+  font-size: 20px;
+  font-weight: 500;
+  color: #252B5C;
+}
+
+
+
+
+@media(max-width:480px){
+  .container{
+    padding: 13px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    gap:8px;
+  }
+
+  .navbar{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 10;
+  }
+  .propertycontainer{
+    justify-items: center;
+    padding-bottom: 100px;
+  }
+}
+
