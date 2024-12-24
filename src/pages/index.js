@@ -47,9 +47,8 @@ export default function Home() {
         <Card key={data.id} propertyid={data.id} Src={data.src} Views={data.views} Rating={data.rating} Name={data.name} Date={data.date}/>
       ))}
       {isFetching ?(
-          <div className={styles.spinner}>
-            
-          </div>
+          <div className={styles.spinner}/>
+          
         ):
         <p style={{width:"full",fontSize:"15px",fontWeight:"200",textAlign:"center"}}> More Properties will be Available soon</p>}
     </div>
