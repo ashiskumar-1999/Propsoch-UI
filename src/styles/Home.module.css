@@ -143,7 +143,7 @@
 
 @media (max-width: 480px) {
   .propertiescontainer {
-    padding: 13px;
+    margin-left: 13px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
@@ -154,14 +154,39 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 850px) {
+  .propertiescontainer {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+
+  .propertyimage {
+    width:600px;
+  }
+
+  .propertycontainer {
+    padding: 0 100px 100px;
+    background-color: aquamarine;
+  }
+}
+
+@media (min-width:900px) and (max-width:1024px){
   .propertiescontainer {
     margin-left: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    
+  }
+
+  .propertyimage {
+    width:800px;
+    
   }
 
   .propertycontainer {
-    padding: 0 13px 100px;
+    padding: 0 100px 100px;
+    background-color: aquamarine;
   }
 }

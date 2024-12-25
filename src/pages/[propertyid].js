@@ -15,7 +15,7 @@ const PropertyDetails = () => {
    <>
    <div className={styles.propertycontainer}>
     <Logo />
-      <Image src={property?.src[0]} width={349} height={486} alt="property-image" className={styles.imagecontainer}/>
+      <Image src={property?.src[0]} width={349} height={486} alt="property-image" className={styles.imagecontainer && styles.propertyimage}/>
       <div className={styles.heading}>
         <div>
           <p className={styles.propertyname}>{property?.name}</p>
