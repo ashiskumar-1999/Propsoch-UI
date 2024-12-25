@@ -1,4 +1,10 @@
 
+.container{
+  justify-content: center;
+  padding-bottom: 80px;
+  background-color: aquamarine;
+}
+
 .spinner{
   justify-self: center;
   align-self: center;
@@ -38,12 +44,14 @@
   z-index: 0;
 }
 .textcontainer{
+  margin-top: 10px;
   padding: 8px;
 }
 .heading{
   display: flex;
   flex-direction:row;
   justify-content: space-between;
+  align-items: center;
 }
 .viewsection{
   display: flex;
@@ -87,6 +95,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  z-index: 10;
   padding-top: 16px;
   padding-left: 24px;
   padding-bottom: 16px;
@@ -113,29 +125,50 @@
   font-weight: 500;
   color: #252B5C;
 }
+.propertyaddress{
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #53587A;
+  line-height: 20px;
+}
 
 
 
 
 @media(max-width:480px){
-  .container{
+  
+  .propertiescontainer{
     padding: 13px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
-    padding-bottom: 80px;
-    gap:8px;
+    gap: 5px;
   }
 
-  .navbar{
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-    z-index: 10;
-  }
+  
   .propertycontainer{
-    justify-items: center;
+    padding-left: 13px;
+    padding-right: 13px;
     padding-bottom: 100px;
   }
 }
+
+
+@media(min-width:768px)  and (max-width:1024px){
+  .propertiescontainer{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+  }
+
+  
+  .propertycontainer{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 100px;
+  }
+}
+
 

@@ -10,7 +10,6 @@ import Logo from '@/components/Logo';
 export default function Home() {
   const [items, setItems] = useState(data.slice(0, 6)); // Initial load
   const [isFetching, setIsFetching] = useState(false);
-
   const fetchMoreItems = async () => {
     setIsFetching(true);
     // Simulate fetching mock data 
@@ -39,19 +38,18 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isFetching]);
   return (
-    <div>
-      <Logo />
-    <NavBar />
     <div className={styles.container}>
+      <Logo />
+      <NavBar />
+    <div className={styles.propertiescontainer}>
       {items.map((data) => (
         <Card key={data.id} propertyid={data.id} Src={data.src} Views={data.views} Rating={data.rating} Name={data.name} Date={data.date}/>
       ))}
-      {isFetching ?(
-          <div className={styles.spinner}/>
-          
-        ):
-        <p style={{width:"full",fontSize:"15px",fontWeight:"200",textAlign:"center"}}> More Properties will be Available soon</p>}
     </div>
+    {isFetching ?(
+          <div className={styles.spinner}/>
+        ):
+        <p style={{width:"full",fontSize:"15px",fontWeight:"600",textAlign:"center"}}> More Properties will be Available soon</p>}
     </div>
   );
 }

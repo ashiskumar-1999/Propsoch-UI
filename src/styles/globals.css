@@ -28,3 +28,6 @@ a {
   text-decoration: none;
 }
 
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";

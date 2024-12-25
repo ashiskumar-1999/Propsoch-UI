@@ -1,7 +1,7 @@
 const data = [
     {
         id:1,
-        src:"/property1.jpeg",
+        src:["/property1.jpeg","/property1.jpeg","/property1.jpeg","/property1.jpeg"],
         views: 41172,
         rating:3.82,
         name:"Sushant Lok 2, Gurgaon",
@@ -9,7 +9,7 @@ const data = [
     },
     {
         id:2,
-        src: "/property2.jpeg",
+        src: ["/property2.jpeg","/property2.jpeg","/property2.jpeg","/property2.jpeg"],
         views: 21172,
         rating:5.0,
         name:"Rainbow Heights, HSR",
@@ -18,7 +18,7 @@ const data = [
     },
     {
         id:3,
-        src: "/property3.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:12648,
         rating:2.80,
         name:"Walden, Colorado, US",
@@ -27,7 +27,7 @@ const data = [
     },
     {
         id:4,
-        src: "/property4.jpeg",
+        src: ["/property4.jpeg","/property4.jpeg","/property4.jpeg","/property4.jpeg",],
         views:6483,
         rating:5.0,
         name:"Poggibonsi, Italy",
@@ -37,7 +37,7 @@ const data = [
 
     {
         id:5,
-        src:"/property4.jpeg",
+        src:["/property1.jpeg","/property1.jpeg","/property1.jpeg","/property1.jpeg"],
         views: 41172,
         rating:3.82,
         name:"Sushant Lok 2, Gurgaon",
@@ -45,7 +45,7 @@ const data = [
     },
     {
         id:6,
-        src: "/property1.jpeg",
+        src:["/property4.jpeg","/property4.jpeg","/property4.jpeg","/property4.jpeg",],
         views:6483,
         rating:5.0,
         name:"Poggibonsi, Italy",
@@ -54,7 +54,7 @@ const data = [
     },
     {
         id:7,
-        src: "/property4.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:12648,
         rating:2.80,
         name:"Walden, Colorado, US",
@@ -63,7 +63,7 @@ const data = [
     },
     {
         id:8,
-        src: "/property1.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views: 21172,
         rating:5.0,
         name:"Rainbow Heights, HSR",
@@ -72,7 +72,7 @@ const data = [
     },
     {
         id:9,
-        src:"/property2.jpeg",
+        src:["/property1.jpeg","/property1.jpeg","/property1.jpeg","/property1.jpeg"],
         views: 41172,
         rating:3.82,
         name:"Sushant Lok 2, Gurgaon",
@@ -80,7 +80,7 @@ const data = [
     },
     {
         id:10,
-        src: "/property1.jpeg",
+        src: ["/property1.jpeg","/property1.jpeg","/property1.jpeg","/property1.jpeg"],
         views: 21172,
         rating:5.0,
         name:"Rainbow Heights, HSR",
@@ -89,7 +89,7 @@ const data = [
     },
     {
         id:11,
-        src: "/property3.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:12648,
         rating:2.80,
         name:"Walden, Colorado, US",
@@ -98,7 +98,7 @@ const data = [
     },
     {
         id:12,
-        src: "/property1.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:6483,
         rating:5.0,
         name:"Poggibonsi, Italy",
@@ -108,7 +108,7 @@ const data = [
 
     {
         id:13,
-        src:"/property2.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views: 41172,
         rating:3.82,
         name:"Sushant Lok 2, Gurgaon",
@@ -116,7 +116,7 @@ const data = [
     },
     {
         id:14,
-        src: "/property1.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:6483,
         rating:5.0,
         name:"Poggibonsi, Italy",
@@ -125,7 +125,7 @@ const data = [
     },
     {
         id:15,
-        src: "/property3.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:12648,
         rating:2.80,
         name:"Walden, Colorado, US",
@@ -134,7 +134,7 @@ const data = [
     },
     {
         id:16,
-        src: "/property4.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views: 21172,
         rating:5.0,
         name:"Rainbow Heights, HSR",
@@ -143,7 +143,7 @@ const data = [
     },
     {
         id:17,
-        src:"/property1.jpeg",
+        src:["/property1.jpeg","/property1.jpeg","/property1.jpeg","/property1.jpeg"],
         views: 41172,
         rating:3.82,
         name:"Sushant Lok 2, Gurgaon",
@@ -151,7 +151,7 @@ const data = [
     },
     {
         id:18,
-        src: "/property4.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views: 21172,
         rating:5.0,
         name:"Rainbow Heights, HSR",
@@ -160,7 +160,7 @@ const data = [
     },
     {
         id:19,
-        src: "/property2.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:12648,
         rating:2.80,
         name:"Walden, Colorado, US",
@@ -169,7 +169,7 @@ const data = [
     },
     {
         id:20,
-        src:"/property3.jpeg",
+        src:["/property1.jpeg","/property1.jpeg","/property1.jpeg","/property1.jpeg"],
         views:6483,
         rating:5.0,
         name:"Poggibonsi, Italy",
@@ -179,7 +179,7 @@ const data = [
 
     {
         id:21,
-        src:"/property3.jpeg",
+        src:["/property1.jpeg","/property1.jpeg","/property1.jpeg","/property1.jpeg"],
         views: 41172,
         rating:3.82,
         name:"Sushant Lok 2, Gurgaon",
@@ -187,7 +187,7 @@ const data = [
     },
     {
         id:22,
-        src: "/property2.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:6483,
         rating:5.0,
         name:"Poggibonsi, Italy",
@@ -196,7 +196,7 @@ const data = [
     },
     {
         id:23,
-        src: "/property1.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:12648,
         rating:2.80,
         name:"Walden, Colorado, US",
@@ -205,7 +205,7 @@ const data = [
     },
     {
         id:24,
-        src:"/property1.jpeg",
+        src:["/property1.jpeg","/property1.jpeg","/property1.jpeg","/property1.jpeg"],
         views: 21172,
         rating:5.0,
         name:"Rainbow Heights, HSR",
@@ -214,7 +214,7 @@ const data = [
     },
     {
         id:25,
-        src:"/property4.jpeg",
+        src:["/property1.jpeg","/property1.jpeg","/property1.jpeg","/property1.jpeg"],
         views: 41172,
         rating:3.82,
         name:"Sushant Lok 2, Gurgaon",
@@ -222,7 +222,7 @@ const data = [
     },
     {
         id:26,
-        src: "/property2.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views: 21172,
         rating:5.0,
         name:"Rainbow Heights, HSR",
@@ -231,7 +231,7 @@ const data = [
     },
     {
         id:27,
-        src: "/property2.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:12648,
         rating:2.80,
         name:"Walden, Colorado, US",
@@ -240,7 +240,7 @@ const data = [
     },
     {
         id:28,
-        src: "/property3.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:6483,
         rating:5.0,
         name:"Poggibonsi, Italy",
@@ -250,7 +250,7 @@ const data = [
 
     {
         id:29,
-        src:"/property2.jpeg",
+        src:["/property1.jpeg","/property1.jpeg","/property1.jpeg","/property1.jpeg"],
         views: 41172,
         rating:3.82,
         name:"Sushant Lok 2, Gurgaon",
@@ -258,7 +258,7 @@ const data = [
     },
     {
         id:30,
-        src: "/property1.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:6483,
         rating:5.0,
         name:"Poggibonsi, Italy",
@@ -267,7 +267,7 @@ const data = [
     },
     {
         id:31,
-        src: "/property3.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views:12648,
         rating:2.80,
         name:"Walden, Colorado, US",
@@ -276,7 +276,7 @@ const data = [
     },
     {
         id:32,
-        src: "/property2.jpeg",
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
         views: 21172,
         rating:5.0,
         name:"Rainbow Heights, HSR",
