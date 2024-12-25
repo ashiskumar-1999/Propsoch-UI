@@ -145,6 +145,18 @@
   color: #53587A;
   line-height: 20px;
 }
+.landmarks{
+  margin-top: 40px;
+  width:100px;
+  height:27px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 5px;
+  background-color: #F5F4F8;
+  font-size: 10px;
+  font-weight: 600;
+  color: #1F4C6B;
+}
 
 @media (max-width: 480px) {
   .propertiescontainer {
@@ -153,7 +165,9 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
   }
-
+  .propertyimage{
+    border-radius: 8px;
+  }
   .propertycontainer {
     padding: 0 13px 100px;
   }
@@ -169,11 +183,11 @@
 
   .propertyimage {
     width:600px;
+    border-radius: 8px;
   }
 
   .propertycontainer {
     padding: 0 100px 100px;
-    background-color: aquamarine;
   }
 }
 
@@ -187,11 +201,11 @@
 
   .propertyimage {
     width:800px;
+    border-radius: 8px;
     
   }
 
   .propertycontainer {
     padding: 0 100px 100px;
-    background-color: aquamarine;
   }
 }

@@ -29,11 +29,22 @@ const PropertyDetails = () => {
         <p className={styles.propertyname}>Location</p>
         <div className={styles.heading}>
           <div>
-          <CiLocationOn style={{width:"20px", height:"20px", borderRadius:"25px",  backgroundColor:"#FF750433"}}/>
+          <CiLocationOn style={{width:"30px", height:"30px", borderRadius:"25px",  backgroundColor:"#FF750433", }}/>
           </div>
           <div>
           <p className={styles.propertyaddress}>Jl. Gerungsari, Bulusan, Kec. Tembalang, Kota Semarang, Jawa Tengah 50277</p>
           </div>
+      </div>
+      <div className={styles.heading}>
+        <p className={styles.landmarks}>
+          2Hospitals
+        </p>
+        <p className={styles.landmarks}>
+          4 Gas Stations
+        </p>
+        <p className={styles.landmarks}>
+          2 Schools
+        </p>
       </div>
    </div>
    <NavBar />
