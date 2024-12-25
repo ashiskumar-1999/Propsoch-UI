@@ -283,6 +283,78 @@ const data = [
         date:"Mar 9 – 14",
 
     },
+    {
+        id:33,
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
+        views: 21172,
+        rating:5.0,
+        name:"Rainbow Heights, HSR",
+        date:"Mar 9 – 14",
+
+    },
+    {
+        id:34,
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
+        views: 21172,
+        rating:5.0,
+        name:"Rainbow Heights, HSR",
+        date:"Mar 9 – 14",
+
+    },
+    {
+        id:35,
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
+        views: 21172,
+        rating:5.0,
+        name:"Rainbow Heights, HSR",
+        date:"Mar 9 – 14",
+
+    },
+    {
+        id:36,
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
+        views: 21172,
+        rating:5.0,
+        name:"Rainbow Heights, HSR",
+        date:"Mar 9 – 14",
+
+    },
+    {
+        id:37,
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
+        views: 21172,
+        rating:5.0,
+        name:"Rainbow Heights, HSR",
+        date:"Mar 9 – 14",
+
+    },
+    {
+        id:38,
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
+        views: 21172,
+        rating:5.0,
+        name:"Rainbow Heights, HSR",
+        date:"Mar 9 – 14",
+
+    },
+    {
+        id:39,
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
+        views: 21172,
+        rating:5.0,
+        name:"Rainbow Heights, HSR",
+        date:"Mar 9 – 14",
+
+    },
+    {
+        id:40,
+        src: ["/property3.jpeg","/property3.jpeg","/property3.jpeg","/property3.jpeg",],
+        views: 21172,
+        rating:5.0,
+        name:"Rainbow Heights, HSR",
+        date:"Mar 9 – 14",
+
+    },
 ]
 
 export default data;

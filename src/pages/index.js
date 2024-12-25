@@ -8,7 +8,7 @@ import Logo from '@/components/Logo';
 
 
 export default function Home() {
-  const [items, setItems] = useState(data.slice(0, 6)); // Initial load
+  const [items, setItems] = useState(data.slice(0, 16)); // Initial load
   const [isFetching, setIsFetching] = useState(false);
   const fetchMoreItems = async () => {
     setIsFetching(true);
